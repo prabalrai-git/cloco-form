@@ -55,9 +55,9 @@ const data = [
       :style="{ right: '30px', bottom: '30px' }"
     >
       <template #icon> <MenuOutlined /> </template>
-      <a-float-button>
+      <!-- <a-float-button>
         <template #icon><SecurityScanOutlined /></template
-      ></a-float-button>
+      ></a-float-button> -->
       <a-float-button @click="showDrawer" :badge="{ count: 5, color: 'red' }">
         <template #icon>
           <CommentOutlined />
